@@ -18,6 +18,7 @@ class CreateHddvltTable extends Migration
             $table->text('thaotac');
             $table->string('hienthi');
             $table->integer('stt');
+            $table->string('plcn');
             $table->timestamps();
         });
     }

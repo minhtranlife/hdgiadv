@@ -12,6 +12,7 @@ class HdDvLt extends Model
         'mota',
         'thaotac',
         'hienthi',
-        'stt'
+        'stt',
+        'plcn'
     ];
 }

@@ -15,9 +15,18 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('dvlt/sotc',function(){
-    $model = \App\HdDvLt::orderBy('stt','asc')
+    $model = \App\HdDvLt::where('plcn','SoTC')
+        ->orderBy('stt','asc')
         ->get();
     return view('dvlt.sotc.index')
         ->with('model',$model)
         ->with('pageTitle','Sở tài chính');
+});
+Route::get('dvlt/dn',function(){
+    $model = \App\HdDvLt::where('plcn','DN')
+        ->orderBy('stt','asc')
+        ->get();
+    return view('dvlt.sotc.index')
+        ->with('model',$model)
+        ->with('pageTitle','Doanh nghiệp cung cấp dịch vụ lưu trú');
 });

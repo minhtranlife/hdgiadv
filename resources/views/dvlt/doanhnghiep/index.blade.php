@@ -31,7 +31,7 @@
                                     <table id="table_id" class="table table-hover table-striped table-bordered table-advanced tablesorter">
                                         <thead>
                                         <tr>
-                                            <th width="1%">STT</th>
+                                            <th>STT</th>
                                             <th width="30%">Mô tả thao tác</th>
                                             <th>Hiển thị</th>
                                         </tr>
@@ -45,12 +45,9 @@
                                                 {!! nl2br(e($tthd->thaotac)) !!}
                                             </td>
                                             <td align="center">
-
                                                 @if($tthd->hienthi == '')
-                                                    <a href="{{url('data/uploads/no_image.jpg')}}" target="_blank">
-                                                    <img src="{{ url('data/uploads/no_image.jpg')}}" alt="" class="img-responsive pull-center mrm"/></a>
+                                                    <img src="{{ url('data/uploads/no_image.jpg')}}" alt="" class="img-responsive pull-center mrm"/>
                                                 @else
-                                                    <a href="{{url('data/uploads/dvlt/'.$tthd->hienthi)}}" target="_blank">
                                                     <img src="{{ url('data/uploads/dvlt/'.$tthd->hienthi)}}" alt="" class="img-responsive pull-center mrm"/>
                                                 @endif
                                             </td>

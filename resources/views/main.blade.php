@@ -91,7 +91,8 @@
                 <ul id="side-menu" class="nav">
                     <li id="navluutru"><a href="{{url('')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Kê khai giá dịch vụ lưu trú</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="{{url('dvlt/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng Sở</span></a> </li>
+                            <li><a href="{{url('dvlt/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
+                            <li><a href="{{url('dvlt/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
                         </ul>
                     </li>
                     <li id="navluutru"><a href="{{url('')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Giá cước vận tải</span><span class="fa arrow"></span></a>
