@@ -97,14 +97,33 @@
                     </li>
                     <li id="navluutru"><a href="{{url('')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Giá cước vận tải</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="{{url('')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Thông tin loại dịch vận tải hành khách bằng xe ô tô theo tuyến cố định</span></a> </li>
-                            <li><a href="{{url('')}}"><i class="fa fa-car"></i><span class="submenu-title">Kê khai giá dịch vụ vận tải hành khách bằng xe ô tô theo tuyến cố định</span></a> </li>
-                                <li><a href="{{url('')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Thông tin loại dịch vận tải hành khách bằng xe buýt theo tuyến cố định</span></a> </li>
-                            <li><a href="{{url('')}}"><i class="fa fa-ambulance"></i><span class="submenu-title">Kê khai giá dịch vụ vận tải hành khách bằng xe buýt theo tuyến cố định</span></a> </li>
-                                <li><a href="{{url('')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Thông tin loại dịch vận tải hành khách bằng xe taxi</span></a> </li>
-                            <li><a href="{{url('')}}"><i class="fa fa-taxi"></i><span class="submenu-title">Kê khai giá dịch vụ vận tải hành khách bằng xe taxi</span></a> </li>
-                                <li><a href="{{url('')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Thông tin loại dịch vận tải khác</span></a> </li>
-                            <li><a href="{{url('')}}"><i class="fa fa-truck"></i><span class="submenu-title">Kê khai giá dịch vụ vận tải khác</span></a> </li>
+                            <li class=""><a href="#"><i class="fa fa-desktop fa-fw"></i><span class="submenu-title">Vận tải xe khách</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse" style="height: 0px;">
+                                    <li><a href="{{url('dvxk/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
+                                    <li><a href="{{url('dvxk/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
+                                </ul>
+                            </li>
+
+                            <li class=""><a href="#"><i class="fa fa-desktop fa-fw"></i><span class="submenu-title">Vận tải xe buýt</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse" style="height: 0px;">
+                                    <li><a href="{{url('dvxb/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
+                                    <li><a href="{{url('dvxb/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
+                                </ul>
+                            </li>
+
+                            <li class=""><a href="#"><i class="fa fa-desktop fa-fw"></i><span class="submenu-title">Vận tải xe taxi</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse" style="height: 0px;">
+                                    <li><a href="{{url('dvxtx/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
+                                    <li><a href="{{url('dvxtx/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
+                                </ul>
+                            </li>
+
+                            <li class=""><a href="#"><i class="fa fa-desktop fa-fw"></i><span class="submenu-title">Vận tải chở hàng</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse" style="height: 0px;">
+                                    <li><a href="{{url('dvch/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
+                                    <li><a href="{{url('dvch/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
 
