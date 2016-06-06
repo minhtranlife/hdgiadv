@@ -8,7 +8,6 @@
 
 @stop
 
-
 @section('custom-script')
     <!-- put the custom script for this page here -->
     <script type="text/javascript" src="{{ url('vendors/DataTables/media/js/jquery.dataTables.js') }}"></script>
@@ -18,16 +17,19 @@
 @stop
 
 @section('content')
-
     <div class="page-content">
         <div id="" class="row">
+
             <div class="col-lg-12">
+
                 <form id="view_user">
+aaa
                     <div class="portlet box">
 
                         <div class="portlet-body">
                             <div class="row">
                                 <div class="col-lg-12">
+
                                     <table id="table_id" class="table table-hover table-striped table-bordered table-advanced tablesorter">
                                         <thead>
                                         <tr>

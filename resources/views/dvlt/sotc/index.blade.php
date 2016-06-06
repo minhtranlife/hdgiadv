@@ -22,6 +22,11 @@
     <div class="page-content">
         <div id="" class="row">
             <div class="col-lg-12">
+                <div class="note note-info"><h4 class="box-heading">Mô hình chức năng tại cơ sở kinh doanh</h4>
+
+                    <img src="{{url('data/uploads/mohinh/MoHinhChucNangCsKd.jpg')}}" alt=""  height="100"/>
+            </div>
+            <div class="col-lg-12">
                 <form id="view_user">
                     <div class="portlet box">
 
