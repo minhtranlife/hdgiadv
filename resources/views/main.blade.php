@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="Thu, 19 Nov 1900 08:52:00 GMT">
-    <link rel="shortcut icon" href="vendors/pageloader/images/loader4.GIF" type="image/x-icon">
+    <!--link rel="shortcut icon" href="vendors/pageloader/images/loader4.GIF" type="image/x-icon"-->
+    <link rel="shortcut icon" href="{{ url('images/LIFESOFT.png')}}" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/icons/favicon.png">
     <link rel="apple-touch-icon" href="images/icons/favicon.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicon-72x72.png">
@@ -57,9 +58,46 @@
     <!--CORE JAVASCRIPT-->
     <script type="text/javascript" src="{{ url('js/main.js') }}"></script>
     <!--LOADING SCRIPTS FOR PAGE-->
+    <script type="text/javascript">
+        function time() {
+            var today = new Date();
+            var weekday=new Array(7);
+            weekday[0]="Chủ nhật";
+            weekday[1]="Thứ hai";
+            weekday[2]="Thứ ba";
+            weekday[3]="Thứ tư";
+            weekday[4]="Thứ năm";
+            weekday[5]="Thứ sáu";
+            weekday[6]="Thứ bảy";
+            var day = weekday[today.getDay()];
+            var dd = today.getDate();
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+            var h=today.getHours();
+            var m=today.getMinutes();
+            var s=today.getSeconds();
+            m=checkTime(m);
+            s=checkTime(s);
+            nowTime = h+":"+m+":"+s;
+            if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} today = day+', '+ dd+'/'+mm+'/'+yyyy;
+
+            tmp='<span class="date"> '+today+' | '+nowTime+'</span>';
+
+            document.getElementById("clock").innerHTML=tmp;
+
+            clocktime=setTimeout("time()","1000","JavaScript");
+            function checkTime(i)
+            {
+                if(i<10){
+                    i="0" + i;
+                }
+                return i;
+            }
+        }
+    </script>
     @yield('custom-script')
 </head>
-<body class="header-fixed">
+<body class="header-fixed" onload="time()">
 <div>
     <!--BEGIN BACK TO TOP--><a id="totop" href="#"><i class="fa fa-angle-up"></i></a><!--END BACK TO TOP-->
     <!--BEGIN TOPBAR-->
@@ -140,10 +178,7 @@
                 </ol>
                 <ol class="breadcrumb page-breadcrumb pull-right">
                     <li class="btn btn-info btn-xs mbs">
-                        <?php $now = getdate();?>
-                        <i class="fa fa-calendar"></i>&nbsp;<b>
-                            Ngày {{$now["mday"]}} tháng {{$now["mon"]}} năm {{$now["year"]}} - {{$now["hours"]}} : {{$now["minutes"]}}
-                           </b>&nbsp;&nbsp;
+                        <b><div id="clock"></div></b>
                     </li>
 
                 </ol>
