@@ -21,7 +21,7 @@ class HomeController extends Controller
     public function index()
     {
         return view('dashboard')
-            ->with('pageTitle', 'Giới thiệu');
+            ->with('pageTitle', 'Help');
 
     }
 
