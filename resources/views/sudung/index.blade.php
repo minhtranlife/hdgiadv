@@ -67,15 +67,15 @@
                                         <li>4. Dịch vụ lưu trú
                                             <ul>
                                                 <li>a. Thông tin doanh nghiệp
-                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiZWUtdHptZHRJSGM/view?usp=sharing" target="_blank">
+                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaibzFRNzZ0TER1aUE/view?usp=sharing" target="_blank">
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                                 <li>b. Thông tin cơ sở kinh doanh
-                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiZWUtdHptZHRJSGM/view?usp=sharing" target="_blank">
+                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaibW55eHhyMFhKMVU/view?usp=sharing" target="_blank">
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                                 <li>c. Kê khai giá dịch vụ lưu trú
-                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiZWUtdHptZHRJSGM/view?usp=sharing" target="_blank">
+                                                    <a href="" target="_blank">
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                             </ul>
