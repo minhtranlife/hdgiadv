@@ -14,6 +14,7 @@
     // DEFAULT
 Route::get('/', 'HomeController@index');
 
+// <editor-fold defaultstate="collapsed" desc="--Tạm thời bỏ--">
 Route::get('dvlt/sotc',function(){
     $model = \App\HdDvLt::where('plcn','SoTC')
         ->orderBy('stt','asc')
@@ -26,7 +27,7 @@ Route::get('dvlt/dn',function(){
     $model = \App\HdDvLt::where('plcn','DN')
         ->orderBy('stt','asc')
         ->get();
-    return view('dvlt.sotc.index')
+    return view('dvlt.doanhnghiep.index')
         ->with('model',$model)
         ->with('pageTitle','Doanh nghiệp cung cấp dịch vụ lưu trú');
 });
@@ -114,3 +115,13 @@ Route::get('dvch/dn',function(){
         ->with('pageTitle','Doanh nghiệp cung cấp dịch vụ vận tải');
 });
 //End đơn vị vận tải chở hàng
+// </editor-fold>
+
+Route::get('don-vi-quan-ly', function(){
+    return view('quanly.index')
+        ->with('pageTitle','Hướng dẫn sử dụng đơn vị quản lý');
+});
+Route::get('don-vi-ke-khai',function(){
+    return view('sudung.index')
+        ->with('pageTitle','Hướng dẫn sử dụng đơn vị kê khai');
+});

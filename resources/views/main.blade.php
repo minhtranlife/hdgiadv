@@ -127,7 +127,7 @@
         <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side">
             <div class="sidebar-collapse menu-scroll">
                 <ul id="side-menu" class="nav">
-                    <li id="navluutru"><a href="{{url('')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Kê khai giá dịch vụ lưu trú</span><span class="fa arrow"></span></a>
+                    <!--li id="navluutru"><a href="{{url('')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Kê khai giá dịch vụ lưu trú</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="{{url('dvlt/sotc')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại sở tài chính</span></a> </li>
                             <li><a href="{{url('dvlt/dn')}}"><i class="fa fa-th-list"></i><span class="submenu-title">Chức năng tại doanh nghiệp</span></a> </li>
@@ -163,8 +163,11 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li!-->
+                    <li id="navquanly"><a href="{{url('don-vi-quan-ly')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Đơn vị quản lý</span><span class="fa arrow"></span></a>
+                    <li id="navquanly"><a href="{{url('don-vi-ke-khai')}}"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Đơn vị kê khai</span><span class="fa arrow"></span></a>
 
+                    </li>
                 </ul>
             </div>
         </nav>

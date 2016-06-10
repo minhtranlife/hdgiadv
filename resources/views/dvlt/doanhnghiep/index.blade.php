@@ -23,7 +23,6 @@
             <div class="col-lg-12">
 
                 <form id="view_user">
-aaa
                     <div class="portlet box">
 
                         <div class="portlet-body">
