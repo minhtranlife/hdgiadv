@@ -75,7 +75,7 @@
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                                 <li>c. Kê khai giá dịch vụ lưu trú
-                                                    <a href="" target="_blank">
+                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiREFtMTJ2TWt0N28/view?usp=sharing" target="_blank">
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                             </ul>
