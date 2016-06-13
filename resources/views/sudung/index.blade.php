@@ -84,17 +84,17 @@
                                         <li>5. Dịch vụ vận tải
                                             <ul>
                                                 <li>I. Thông tin doanh nghiệp
-                                                    <a href="" target="_blank">
+                                                    <a href="https://drive.google.com/file/d/0B-H5ht2aLTaicDRFNHhMNUMybzA/view?usp=sharing" target="_blank">
                                                         &nbsp;(<u>Xem chi tiết</u>)</a>
                                                 </li>
                                                 <li>II. Vận tải xe khách
                                                     <ul>
                                                         <li>a. Thông tin dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiZlQ2Mm1yalZNSFk/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                         <li>b. Kê khai giá dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiNk0zdk9ObXU4VmM/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                     </ul>
@@ -102,11 +102,11 @@
                                                 <li>II. Vận tải xe buýt
                                                     <ul>
                                                         <li>a. Thông tin dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaieFBsSUp1VWtkbms/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                         <li>b. Kê khai giá dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiS2Z3bGZ6UDhnRTg/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                     </ul>
@@ -114,11 +114,11 @@
                                                 <li>III. Vận tải taxi
                                                     <ul>
                                                         <li>a. Thông tin dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiUlUzUUw3V1dPUXc/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                         <li>b. Kê khai giá dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaia1lRUms1Zll0NWc/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                     </ul>
@@ -126,11 +126,11 @@
                                                 <li>IV. Vận tải chở hàng
                                                     <ul>
                                                         <li>a. Thông tin dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaiQzltSEdTb2FOb3c/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                         <li>b. Kê khai giá dịch vụ vận tải
-                                                            <a href="" target="_blank">
+                                                            <a href="https://drive.google.com/file/d/0B-H5ht2aLTaickdKYmV0aDN5clU/view?usp=sharing" target="_blank">
                                                                 &nbsp;(<u>Xem chi tiết</u>)</a>
                                                         </li>
                                                     </ul>
